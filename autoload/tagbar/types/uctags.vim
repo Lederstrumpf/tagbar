@@ -197,7 +197,6 @@ function! tagbar#types#uctags#init(supported_types) abort
         \ {'short': 'c', 'long': 'definition (once)',      'fold': 0, 'stl': 1},
         \ {'short': 's', 'long': 'struct',                 'fold': 0, 'stl': 1},
         \ {'short': 'v', 'long': 'intern',                 'fold': 0, 'stl': 1},
-        \ {'short': 'n', 'long': 'namespace',              'fold': 0, 'stl': 1}
     \ ]
     let types.clojure = type_clojure
     " COBOL {{{1
